@@ -1,0 +1,65 @@
+body{
+    font-family: "Xorx_windy Cyr";
+}
+/**********************************
+Презаписани класове на буутстрап - ЛОША ИДЕЯ, ЛОША ПРАКТИКА!!!!
+***********************************/
+
+.navbar-inverse {
+    background: rgba(62,195,246,0);
+    border-bottom: none;
+}
+.navbar-inverse .navbar-toggle {
+    border: 1px solid #333;
+    border-color: rgba(255,255,255,0.7);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: darkred;
+    font-weight: 900;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #22F;
+
+}
+
+@font-face {
+    font-family: 'Xorx_windy Cyr';
+    src: url('http://www.fontsaddict.com/fontface/xorx-windy-cyr.ttf');
+}
+
+/* *********************************
+           Big Logo
+  ********************************** */
+a{
+    color: darkred;
+}
+
+.big-logo-row {
+    background-color: #ffd700;
+    background-image: url("res/fire_transperant.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 250px;
+
+    color: darkred;
+    font-size: 5rem
+;
+
+}
+h2{
+    font-size: 4rem;
+}
+
+    .big-logo-container {
+        padding-top: 50px /*$navbar-height*/;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0 0 50px /*$navbar-height*/ 0;
+}
+

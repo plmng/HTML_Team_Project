@@ -1,0 +1,36 @@
+
+@media (min-width: 400px) {
+    .big-logo-container > h1 {
+        font-size: 4.5em;
+    }
+}
+@media (min-width: 440px) {
+    .big-logo-container> h1{ font-size: 5.5em;
+    }
+}
+@media (min-width: 500px) {
+    .big-logo-container> h1{font-size: 6.5em;
+    }
+}
+@media (min-width: 630px) {
+    .big-logo-container> h1{font-size: 7.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        background: rgba(255, 255, 255, 0.75);
+    }
+}
+
+@media (min-width: 768px) {
+    .big-logo-container > h1 {
+        font-size: 9em;
+        padding-bottom: 30px ; /*$big-logo-padding*2*/ ;
+    }
+}
+@media (min-width: 1200px) {
+    .big-logo-container > h1 {
+        font-size: 12em;
+    }
+}
