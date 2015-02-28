@@ -1,3 +1,15 @@
+header{
+    padding-top: 150px;
+    background-image: url(resources/fire_transperant.png);
+    background-repeat:repeat-x;
+
+}
 h1{
     text-align: center;
 }
+
+.hidden{
+    display: none;
+}
+
+
