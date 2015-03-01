@@ -4,26 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-
+    <title>ЧУШКАРНИК</title>
+    <link rel="stylesheet" href="style1.css" type="text/css"/>
+    <link rel="stylesheet" href="media.css"/>
     <!-- Bootstrap -->
     <link href="bootstrap/bootstrap-3.3.2/docs/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-
-
-
-
-
     <script type="text/javascript">
-
         function preview(divId){
-
             var allDivsForContent = document.getElementsByClassName('content');
-
             //first remove clas 'visible' from all possible tags
             var len = allDivsForContent.length;
-
             for (var i=0; i<len; i++){
                 var el = allDivsForContent[i];
                 el.className = 'content hidden';
@@ -32,12 +22,9 @@
             var previewBox = document.getElementById(divId);
             previewBox.className = 'content visible';
         }
-
     </script>
-
-
-
 </head>
+
 <body>
 <script src="bootstrap/bootstrap-3.3.2/js/tests/vendor/jquery.min.js"></script>
 <script src="bootstrap/bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
@@ -46,7 +33,7 @@
 
 <div id="container">
     <header>
-        <nav class="navbar navbar-inverse">
+        <nav id="nav" class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -55,13 +42,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="resources/bell_peppers.jpg">Bell Pepper Team</a>
+                    <a class="navbar-brand" href="#"><span>ЧУШКАРНИК</span></a>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div id="collapse" class="navbar-collapse collapse pull-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">История</a></li>
-                        <li><a href="#about">Преподаватели</a></li>
-                        <li><a href="#contact">Контакти</a></li>
+                        <li><a id="active" class="active" href="#beginning">НАЧАЛО</a></li> <!--<li id="active" class="active">-->
+                        <li><a href="#about">заЧУШКАРНИКА</a></li>
+                        <li><a href="#future">БЪДЕЩЕ</a></li>
+                        <li><a href="#apply">КАНДИДАТСТВАЙТЕ</a></li>
+                        <!--
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DropdownTest <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
@@ -70,7 +59,7 @@
                                 <li><a href="#" onclick="preview('maincontent3')">A3</a></li>
 
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -78,6 +67,11 @@
     </header>
 
     <main>
+        <div id="beginning">this is begining</div>
+        <div id="about" class="hidden2">this is about</div>
+        <div id="future" class="hidden2">this is future</div>
+        <div id="apply" class="hidden2">this is apply</div>
+        <!--
         <div id="preview">
             <div id="maincontent1" class="content visible"> Click on A1
                     <br/>
@@ -85,7 +79,7 @@
                 </div>
             <div id="maincontent2" class="content hidden"> <h1>Click on A2</h1></div>
             <div id="maincontent3" class="content hidden"> <h1>Click on A3</h1></div>
-        </div>
+        </div>-->
     </main>
     <footer class="footer">
         <p>THE FOOTER</p>

@@ -1,20 +1,68 @@
-header{
-    padding-top: 150px;
-    background-image: url(resources/fire_transperant.png);
-    background-repeat:repeat-x;
-
-}
-h1{
-    text-align: center;
-}
-
-.hidden{
-    display: none;
+/*Basic styles*/
+@font-face {
+    font-family: 'LogoFont';
+    src: url(resources/Xorx_Windy2.ttf);
 }
 #container{
     min-height: 100%;
     position:relative;
 }
+/* header styles*/
+header{
+    border: 1px solid blue;
+    background-color: #ffd700;
+    background-image: url(resources/fire_transperant.png);
+    background-repeat: repeat-x;
+    background-position-y: 19px;
+    height: 178px;
+}
+header nav a>span{
+    font-family: LogoFont;
+    color:#C82600;
+    font-size: 23px;
+}
+#nav{
+    background-color:transparent;
+    border:none;
+}
+#nav ul>li:hover{
+    /* background-color: #C82600;*/
+    border:1px solid  #ffd700;
+    border-radius: 7px;
+}
+#nav ul>li>a{
+    color: #C82600;
+    padding: 7px 7px;
+    /*font-weight: 900;*/
+}
+#nav ul>li>a:hover{
+    color: #657A11;
+}
+#nav ul>li:hover{
+    border:1px solid  #657A11;
+    border-radius: 7px;
+}
+
+/*main styles*/
+h1{
+    text-align: center;
+}
+/*
+.hidden2{
+    display: none;
+}*/
+
+main>div[id] {
+    display:none;
+}
+main>div[id]:target{
+    width:50%;
+    height:200px;
+    border:solid black 1px;
+    display:block;
+}
+
+/*footer styles*/
 #footer {
     position:absolute;
     bottom:0;
@@ -22,5 +70,3 @@ h1{
     height:60px;
     background:#6cf;
 }
-
-
