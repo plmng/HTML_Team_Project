@@ -38,15 +38,17 @@ header nav a>span{
 }
 /*main styles*/
 /*basic targets behavior*/
-
-.pages > .page:target ~ .page:last-child, .pages > .page {
-    display: none;
-}
-.pages > :last-child, .pages > .page:target {
+.clearfix2:after {
+    content: "";
     display: block;
+    clear: both;
+    height: 0; }
+.text-italic{
+    font-style: italic;
 }
-/*pages(div) styles*/
-
+.text-bold{
+    font-weight: 900;
+}
 .page{
     margin: 20px auto auto auto;
     width: 90%;
@@ -56,15 +58,35 @@ header nav a>span{
 }
 .page h1{
     margin-bottom: 20px;
+    color: #607913;
+    text-align: center;
 }
 .page p{
     text-align: justify;
 }
-.italic{
-    font-style: italic;
-}
 .hr {
     border-top: 2px solid #C82600;
-
 }
+
+#beginning{
+    padding: 30px;
+}
+#beginning span{
+    font-family: LogoFont;
+}
+
+#future div.image{
+    width: 207px;
+    height: 207px;
+    padding: 1px;
+    border:2px solid #C82600;
+    border-radius: 7px;
+}
+#future div.image > img {
+    max-width: 100%;
+}
+
+
+
+
 /*footer styles*/
