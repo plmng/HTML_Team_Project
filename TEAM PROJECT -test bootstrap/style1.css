@@ -19,7 +19,7 @@ header{
 header nav a>span{
     font-family: LogoFont;
     color:#C82600;
-    font-size: 23px;
+    font-size: 30px;
 }
 #nav{
     background-color:transparent;
@@ -33,6 +33,7 @@ header nav a>span{
 #nav ul>li>a{
     color: #C82600;
     padding: 7px 7px;
+    background-color: #ffd700;
     /*font-weight: 900;*/
 }
 #nav ul>li>a:hover{
@@ -42,25 +43,20 @@ header nav a>span{
     border:1px solid  #657A11;
     border-radius: 7px;
 }
+#dropdown-menu{
+    padding: 0px;
+    background-color: transparent;
+}
 
 /*main styles*/
-h1{
-    text-align: center;
-}
-/*
-.hidden2{
+/*basic targets behavior*/
+.pages > .page:target ~ .page:last-child, .pages > .page {
     display: none;
-}*/
-
-main>div[id] {
-    display:none;
 }
-main>div[id]:target{
-    width:50%;
-    height:200px;
-    border:solid black 1px;
-    display:block;
+.pages > :last-child, .pages > .page:target {
+    display: block;
 }
+/*pages(div) styles*/
 
 /*footer styles*/
 #footer {
