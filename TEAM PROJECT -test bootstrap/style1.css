@@ -38,6 +38,7 @@ header nav a>span{
 }
 /*main styles*/
 /*basic targets behavior*/
+
 .pages > .page:target ~ .page:last-child, .pages > .page {
     display: none;
 }
@@ -46,11 +47,24 @@ header nav a>span{
 }
 /*pages(div) styles*/
 
-/*footer styles*/
-#footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;
-    background:#6cf;
+.page{
+    margin: 20px auto auto auto;
+    width: 90%;
+    border: 2px solid #C82600;
+    border-radius: 10px;
+    padding: 20px;
 }
+.page h1{
+    margin-bottom: 20px;
+}
+.page p{
+    text-align: justify;
+}
+.italic{
+    font-style: italic;
+}
+.hr {
+    border-top: 2px solid #C82600;
+
+}
+/*footer styles*/
