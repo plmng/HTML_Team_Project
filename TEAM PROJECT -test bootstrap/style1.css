@@ -13,7 +13,7 @@ header{
     background-image: url(resources/fire_transperant.png);
     background-repeat: repeat-x;
     background-position-y: 19px;
-    height: 178px;
+    height: 177px;
 }
 header nav a>span{
     font-family: LogoFont;
