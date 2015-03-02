@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="media.css"/>
     <!-- Bootstrap -->
     <link href="bootstrap/bootstrap-3.3.2/docs/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
+
         function preview(divId){
             var allDivsForContent = document.getElementsByClassName('content');
             //first remove clas 'visible' from all possible tags
@@ -23,6 +24,7 @@
             previewBox.className = 'content visible';
         }
     </script>
+    -->
 </head>
 
 <body>
@@ -46,26 +48,15 @@
                 </div>
                 <div id="collapse" class="navbar-collapse collapse pull-right">
                     <ul class="nav navbar-nav">
-                        <li><a id="active" class="active" href="#beginning">НАЧАЛО</a></li> <!--<li id="active" class="active">-->
+                        <li><a href="#beginning">НАЧАЛО</a></li> <!--<li id="active" class="active">-->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">заЧУШКАРНИКА <span class="caret"></span></a>
                             <ul id="dropdown-menu" class="dropdown-menu" role="menu">
-                                <li><a href="#teachers">Преподаватели</a></li>
                                 <li><a href="#courses">Курсове</a></li>
+                                <li><a href="#teachers">Екип</a></li>
                             </ul>
-                        <!-- <li><a href="#about">заЧУШКАРНИКА</a></li>-->
                         <li><a href="#future">БЪДЕЩЕ</a></li>
                         <li><a href="#apply">КАНДИДАТСТВАЙТЕ</a></li>
-                        <!--
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DropdownTest <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" onclick="preview('maincontent1')">A1</a></li>
-                                <li><a href="#" onclick="preview('maincontent2')">A2</a></li>
-                                <li><a href="#" onclick="preview('maincontent3')">A3</a></li>
-
-                            </ul>
-                        </li>-->
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -74,26 +65,22 @@
 
     <main>
         <div class="pages">
-
-            <div id="about" class="page">this is about</div><!--da se mahne pri mahane na linka ot menuto-->
             <div id="future" class="page">this is future</div>
             <div id="apply" class="page">this is apply</div>
             <div id="teachers" class="page">this is teachers</div>
-            <div id="courses" class="page">this is teachers</div>
+            <div id="courses" class="page">this is courses</div>
             <div id="beginning" class="page">this is beginning</div>
         </div>
     </main>
     <footer class="footer">
         <div class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
-                <a href="http://validator.w3.org/"><img src="resources/valid-html5.png" alt=""/></a>
-                <a href="https://jigsaw.w3.org/css-validator/"><img src="resources/valid-css3.jpg" alt=""/></a>
-                <a href="https://softuni.bg"><img src="resources/soft-uni-logo.jpg" alt=""/></a>
-                <a href="https://facebook.com"><img src="resources/facebook.png" alt=""/></a>
-                <a href="https://twitter.com"><img src="resources/twitter.jpg" alt=""/></a>
-                <a href="https://plus.google.com"><img src="resources/googleplus.png" alt=""/></a>
-
-
+                <a href="http://validator.w3.org/" target="_blank"><img src="resources/valid-html5.png" alt=""/></a>
+                <a href="https://jigsaw.w3.org/css-validator/"target="_blank"><img src="resources/valid-css3.jpg" alt=""/></a>
+                <a href="https://softuni.bg"target="_blank"><img src="resources/soft-uni-logo.jpg" alt=""/></a>
+                <a href="https://facebook.com"target="_blank"><img src="resources/facebook.png" alt=""/></a>
+                <a href="https://twitter.com"target="_blank"><img src="resources/twitter.jpg" alt=""/></a>
+                <a href="https://plus.google.com"target="_blank"><img src="resources/googleplus.png" alt=""/></a>
             </div>
         </div>
     </footer>
