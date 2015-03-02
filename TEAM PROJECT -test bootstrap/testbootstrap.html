@@ -49,7 +49,7 @@
                         <li><a id="active" class="active" href="#beginning">НАЧАЛО</a></li> <!--<li id="active" class="active">-->
                         <li><a href="#about">заЧУШКАРНИКА</a></li>
                         <li><a href="#future">БЪДЕЩЕ</a></li>
-                        <li><a href="#apply">КАНДИДАТСТВАЙТЕ</a></li>
+                        <li><a href="#contact" data-toggle="modal">КОНТАКТИ</a></li>
                         <!--
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DropdownTest <span class="caret"></span></a>
@@ -70,7 +70,7 @@
         <div id="beginning">this is begining</div>
         <div id="about" class="hidden2">this is about</div>
         <div id="future" class="hidden2">this is future</div>
-        <div id="apply" class="hidden2">this is apply</div>
+      
         <!--
         <div id="preview">
             <div id="maincontent1" class="content visible"> Click on A1
@@ -81,6 +81,9 @@
             <div id="maincontent3" class="content hidden"> <h1>Click on A3</h1></div>
         </div>-->
     </main>
+
+
+
     <footer class="footer">
         <div class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
@@ -98,4 +101,42 @@
 </div>
 
 </body>
+
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header">
+                    <h3>Питай Чушкарник</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="contact-name" class="col-lg-2 control-label">Име:</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Трите Имена">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email" class="col-lg-2 control-label">Имейл:</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-msg" class="col-lg-2 control-label">Съобщение:</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="submit">Изпрати</button>
+                    <a class="btn btn-danger" data-dismiss="modal">Затвори</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 </html>
