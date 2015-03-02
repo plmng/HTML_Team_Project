@@ -9,7 +9,6 @@
 }
 /* header styles*/
 header{
-    border: 1px solid blue;
     background-color: #ffd700;
     background-image: url(resources/fire_transperant.png);
     background-repeat: repeat-x;
@@ -25,29 +24,18 @@ header nav a>span{
     background-color:transparent;
     border:none;
 }
-#nav ul>li:hover{
-    /* background-color: #C82600;*/
-    border:1px solid  #ffd700;
-    border-radius: 7px;
-}
 #nav ul>li>a{
     color: #C82600;
     padding: 7px 7px;
     background-color: #ffd700;
-    /*font-weight: 900;*/
 }
 #nav ul>li>a:hover{
     color: #657A11;
 }
-#nav ul>li:hover{
-    border:1px solid  #657A11;
-    border-radius: 7px;
-}
 #dropdown-menu{
-    padding: 0px;
-    background-color: transparent;
+    padding: 5px;
+    background-color: rgba(255, 215, 0, 0.5);
 }
-
 /*main styles*/
 /*basic targets behavior*/
 .pages > .page:target ~ .page:last-child, .pages > .page {
