@@ -89,3 +89,9 @@ header nav a>span{
 
 
 /*footer styles*/
+#footer{
+    padding-top: 60px;
+}
+.navbar{
+    background-color: rgb(255,215,0) !important;
+}
