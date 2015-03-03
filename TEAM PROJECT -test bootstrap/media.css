@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px){
     header nav a>span{
-        font-size: 27px;
+        font-size: 26px;
+        visibility: visible;
     }
     #beginning span{
         font-size: 30px;
@@ -9,7 +10,7 @@
 
 @media screen and (min-width: 480px){
     header nav a>span{
-        font-size: 29px;
+        font-size: 28px;
     }
     #beginning span{
         display: block;
