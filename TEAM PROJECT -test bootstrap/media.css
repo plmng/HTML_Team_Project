@@ -3,9 +3,11 @@
         font-size: 26px;
         visibility: visible;
     }
+    /*
     #beginning span{
         font-size: 30px;
     }
+*/
 }
 
 @media screen and (min-width: 480px){
@@ -15,9 +17,18 @@
     #beginning span{
         display: block;
     }
+    .page{
+        padding: 10px;
+    }
+    #beginning span{
+        font-family: LogoFont;
+    }
 
 }
 @media screen and (min-width: 640px){
+    .page{
+        padding: 20px;
+    }
 
 }
 @media screen and (min-width: 768px){
