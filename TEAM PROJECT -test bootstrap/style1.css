@@ -19,6 +19,7 @@ header nav a>span{
     font-family: LogoFont;
     color:#C82600;
     font-size: 30px;
+    visibility: hidden;
 }
 #nav{
     background-color:transparent;
