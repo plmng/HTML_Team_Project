@@ -1,0 +1,12 @@
+<?php
+$name = $_POST['contact-name'];
+$email = $_POST['contact-name'];
+$msg = $_POST['contact-name'];
+
+$to: "tsvetelinpetsev@gmail.com";
+$subject: "New Message";
+
+mail ($to, $subject, $msg, "From: " . $name);
+echo "Your message has been sent";
+
+?>
