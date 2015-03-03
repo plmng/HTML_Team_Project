@@ -1,18 +1,13 @@
 @media screen and (min-width: 320px){
     header nav a>span{
         font-size: 26px;
-        visibility: visible;
     }
-    /*
-    #beginning span{
-        font-size: 30px;
-    }
-*/
+
 }
 
 @media screen and (min-width: 480px){
     header nav a>span{
-        font-size: 28px;
+        font-size: 27px;
     }
     #beginning span{
         display: block;
@@ -29,12 +24,16 @@
     .page{
         padding: 20px;
     }
+    body{
+        font-size: 1.3rem!important;
+    }
 
 }
 @media screen and (min-width: 768px){
     #beginning span{
         display: inline-block;
     }
+
 }
 @media screen and (min-width: 960px){
 
@@ -42,6 +41,9 @@
 @media screen and (min-width: 1024px){
     header nav a>span{
         font-size: 35px;
+    }
+    body{
+        font-size: 1.4rem!important;
     }
 }
 @media screen and (min-width: 1600px){
