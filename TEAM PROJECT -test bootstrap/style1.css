@@ -3,14 +3,14 @@
     font-family: 'LogoFont';
     src: url(resources/Xorx_Windy2.ttf);
 }
-#container{
+#wrapper {
     min-height: 100%;
     position:relative;
 }
 /* header styles*/
 header{
     background-color: #ffd700;
-    background-image: url(resources/fire_transperant.png);
+    background-image: url(images/fire_transperant.png);
     background-repeat: repeat-x;
     background-position-y: 19px;
     height: 177px;
