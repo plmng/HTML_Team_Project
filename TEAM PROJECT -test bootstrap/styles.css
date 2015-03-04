@@ -22,7 +22,6 @@ h3{
     margin: 0 auto;
     position:relative;
 }
-
 /* header styles*/
 header{
     background-color: #ffd700;
@@ -103,9 +102,6 @@ header nav a>span{
     border:2px solid #C82600;
     border-radius: 7px;
 }
-#future div.image > img {
-    max-width: 100%;
-}
 
 
 
@@ -115,8 +111,18 @@ header nav a>span{
     min-height: 25px;
     background-color: rgba(255,215,0,0.5);
 }
-/*
-.navbar{
-     !important;
+#footer a:nth-child(2){
+    display:none
 }
-*/
+#footer a:nth-child(3){
+    display:none
+}
+#footer a:nth-child(4){
+    display:none
+}
+#footer a:nth-child(5){
+    display:none
+}
+#footer a:nth-child(6){
+    display:none
+}
