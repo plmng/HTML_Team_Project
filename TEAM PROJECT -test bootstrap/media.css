@@ -28,7 +28,7 @@
         padding: 20px;
     }
     body{
-        font-size: 1.3rem!important;
+        font-size: 1.3em!important;
     }
     #footer a:nth-child(4){
         display:inline-block;
@@ -51,7 +51,7 @@
         font-size: 35px;
     }
     body{
-        font-size: 1.4rem!important;
+        font-size: 1.4em!important;
     }
 }
 

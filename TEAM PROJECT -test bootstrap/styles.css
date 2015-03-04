@@ -8,7 +8,7 @@
     to { opacity: 0.0; }
 }
 body{
-    font-size: 1.2rem!important;
+    font-size: 1.2em!important;
 }
 h1{
     font-size: 2.571em!important;
@@ -73,12 +73,12 @@ header nav a>span{
     border-radius: 10px;
     padding: 5px;
 }
-.page h1{
+div.page h1{
     margin-bottom: 10px;
     color: #607913;
     text-align: center;
 }
-.page p{
+div.page p{
     text-align: justify;
 }
 .hr {
@@ -96,7 +96,7 @@ header nav a>span{
 #beginning{
     padding: 30px;
 }
-#future div.image, #team div.image{
+#future>section>article>div.image, #team>section>article>div.image{
     width: 157px;
     height: 157px;
     padding: 1px;
